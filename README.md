@@ -12,4 +12,4 @@ bla
 
 ## Contact
 
-https://clementchapalain.github.io/contact
+[Contactez-moi](https://clementchapalain.github.io/contact)
