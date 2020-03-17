@@ -2,7 +2,7 @@
 
 ## Bienvenue
 
-bla bla
+[Vers la home](https://clementchapalain.github.io/home)
 
 ## Projets
 
