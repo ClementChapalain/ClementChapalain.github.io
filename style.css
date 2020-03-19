@@ -1,5 +1,6 @@
 body {
 	margin: 0 auto;
+	color: black;
 }
 
 div {
@@ -7,47 +8,119 @@ div {
 }
 
 a {
+	color: black;
+}
+
+section {
+	width: 50%;
+	min-width: 520px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Cairo', sans-serif;
+ 	font-size: 4.8rem;
+ 	font-weight: 200;
+}
+
+h1 a {
 	text-decoration: none;
 }
 
-.section {
-	width: 50%;
-	margin: 0 auto;
-	/*border: 1px solid black;*/
+h2 {
+	font-family: sans-serif;
+	font-size:1.2rem;
+	font-weight: 600;
 }
+
+h3 {
+	font-family: sans-serif;
+	font-size:0.8rem;
+	color: #888888;
+}
+
+h3 a {
+	color: #888888;
+}
+
+p {
+ 	font-family: sans-serif;
+ 	font-size: 1.2rem;
+ 	color: #444444;
+ 	font-weight: 300;
+ }
+
+p a {
+ 	color: #444444;
+ }
+
+@media screen and (max-width: 1200px) {
+	section {
+		width: 75%;
+	}
+	h1 {
+ 		font-size: 2.4rem;
+ 	}
+ 	h2 {
+ 		font-size: 1.2rem;
+ 	}
+ 	.subtitle
+}
+
 
 /*HERO*/
 
-.title {
- 	color: black;
- 	line-height: 150%;
- }
-
-.subtitle {
- 	font-size: 1.6rem;
- 	font-family: sans-serif;
- }
-
 #section_hero {
 	height: 40%;
+	min-height: 250px;
 	width: 100%;
-	padding: 1.8rem;
-	background-color: lightblue;
+	background-color: #CCCCCC; /*#85BDCC*/
+	display: flex;
 }
 
 #section_hero div {
-	padding-left: 25%;
+	width: 50%;
+	margin: auto;
+	margin-left: 25%;
 }
 
-#section_hero_main_container {
-	width: 80%;
+@media screen and (max-width: 1200px) {
+	#section_hero {
+		height: 30%;
+	}
+	#section_hero div {
+		width: 75%;
+		margin-left: 12.5%;
+	}
 }
 
-#section_hero_title {
-	font-family: 'Cairo', sans-serif;
- 	font-size: 4.8rem;
- 	font-weight: normal;
- }
+#section_hero h1 {
+	margin: 0 auto;
+}
+
+/*LINKS*/
+
+#section_links {
+	display: flex;
+	min-height: 4.2rem;
+	width: 100%;
+	background-color: #EEEEEE;
+}
+
+#section_links div {
+	margin: auto;
+	text-align: center;
+}
+
+#section_links div div {
+	padding: 0;
+	display: inline-block;
+	min-width: 6.4rem;
+}
+
+#section_links div div a p {
+	font-size: 1.0rem;
+}
 
 /*PROJECTS*/
 
@@ -57,9 +130,7 @@ a {
 }
 
 #section_projects li {
-	font-family: sans-serif;
-	font-size:1.2rem;
-	border-bottom: 0.5px solid lightgrey;
+	border-bottom: 0.5px solid #EEEEEE;
 }
 
 #section_projects li:last-child {
@@ -72,14 +143,13 @@ a {
 }
 
 #section_projects li div:hover {
-	background-color: lightgrey;
+	background-color: #EEEEEE;
     transition: padding-right 0.3s;
 	padding-right: 0rem;
 }
 
-#section_projects li h3 {
+#section_projects li h2 {
 	display: inline-block;
-	color: black;
 }
 
 #section_projects li svg {
@@ -93,5 +163,19 @@ a {
 
 }
 
+/*MENTIONS*/
 
+#section_mentions {
+	width: 100%;
+	border-top: 1px solid #888888;
+}
+
+#section_mentions div {
+	height: 4rem;
+	text-align: center;
+}
+
+#section_mentions div h3 {
+	line-height: 4rem;
+}
 
