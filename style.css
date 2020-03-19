@@ -1,3 +1,97 @@
-#test {
-  color: red;
-  }
+body {
+	margin: 0 auto;
+}
+
+div {
+	/*border: 1px solid black;*/
+}
+
+a {
+	text-decoration: none;
+}
+
+.section {
+	width: 50%;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+
+/*HERO*/
+
+.title {
+ 	color: black;
+ 	line-height: 150%;
+ }
+
+.subtitle {
+ 	font-size: 1.6rem;
+ 	font-family: sans-serif;
+ }
+
+#section_hero {
+	height: 40%;
+	width: 100%;
+	padding: 1.8rem;
+	background-color: lightblue;
+}
+
+#section_hero div {
+	padding-left: 25%;
+}
+
+#section_hero_main_container {
+	width: 80%;
+}
+
+#section_hero_title {
+	font-family: 'Cairo', sans-serif;
+ 	font-size: 4.8rem;
+ 	font-weight: normal;
+ }
+
+/*PROJECTS*/
+
+#section_projects ul {
+	list-style: none;
+    padding-inline-start: 0rem;
+}
+
+#section_projects li {
+	font-family: sans-serif;
+	font-size:1.2rem;
+	border-bottom: 0.5px solid lightgrey;
+}
+
+#section_projects li:last-child {
+	border-bottom: none;
+}
+
+#section_projects li div {
+	padding: 1.8rem;
+    transition: padding-right 0.3s;
+}
+
+#section_projects li div:hover {
+	background-color: lightgrey;
+    transition: padding-right 0.3s;
+	padding-right: 0rem;
+}
+
+#section_projects li h3 {
+	display: inline-block;
+	color: black;
+}
+
+#section_projects li svg {
+	display: inline-block;
+	float: right;
+	padding-top: 1.2rem;
+	padding-right: 1.6rem;
+}
+
+#section_projects li svg:hover {
+
+}
+
+
+
