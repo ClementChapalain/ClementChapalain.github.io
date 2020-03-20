@@ -60,11 +60,17 @@ p a {
 	}
 	h1 {
  		font-size: 2.4rem;
+ 		display: inline-block;
  	}
  	h2 {
  		font-size: 1.2rem;
  	}
- 	.subtitle
+ 	p {
+ 		font-size: 1.0rem;
+ 	}
+ 	svg {
+ 		height:30px;
+ 	}
 }
 
 
@@ -72,7 +78,6 @@ p a {
 
 #section_hero {
 	height: 40%;
-	min-height: 250px;
 	width: 100%;
 	background-color: #DDDDDD; /*#85BDCC*/
 	display: flex;
@@ -86,7 +91,7 @@ p a {
 
 @media screen and (max-width: 1200px) {
 	#section_hero {
-		height: 30%;
+		height: 25%;
 	}
 	#section_hero div {
 		width: 75%;
